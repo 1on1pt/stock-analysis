@@ -87,7 +87,7 @@ The *original code* contained a "nested loop", which ultimately resulted in addi
     
     Next i
     
- The outcome of the the stock performance for 2017 and execution time is as follows:
+ The outcome of the the stock performance for 2017 and execution time when using the **orginal code** is as follows:
  
 ![image](https://user-images.githubusercontent.com/94148420/147826108-b58eb726-2d56-42da-b047-0ca9718ca2f4.png)
 
@@ -187,5 +187,18 @@ The variable tickerIndex was used to match the ticker symbol via the ticker arra
         Cells(i + 4, 3).Value = tickerEndingPrices(tickerIndex) / tickerStartingPrices(tickerIndex) - 1
         
     Next i
-  
+
+The outcome of the the stock performance for 2017 and execution time when using the **refactored code** is as follows:
+ 
+![image](https://user-images.githubusercontent.com/94148420/147826636-1f1f4602-2e24-45d6-9c50-a1fb1b7c95ca.png)
+
+![VBA_Challenge_2017](https://user-images.githubusercontent.com/94148420/147826667-908901c8-020b-4134-8840-886ce8e855af.PNG)
+
+And the results for 2018:
+
+![image](https://user-images.githubusercontent.com/94148420/147826725-8e529003-fb6b-4fcc-87ae-9de35546138e.png)
+
+![VBA_Challenge_2018](https://user-images.githubusercontent.com/94148420/147826750-208cd1f0-a9e2-448a-87bb-d931ed72c2a2.PNG)
+
+
 ## Summary
