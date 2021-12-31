@@ -22,10 +22,8 @@ Sub AllStocksAnalysis()
 
     Worksheets("All Stocks Analysis").Activate
     
-
     Range("A1").Value = "All Stocks (" + yearValue + ")"
-    
-    
+        
     'Create a header row
     Cells(3, 1).Value = "Ticker"
     Cells(3, 2).Value = "Total Daily Volume"
@@ -80,8 +78,7 @@ For i = 0 To 11
             totalVolume = totalVolume + Cells(j, 8).Value
             
     End If
-            
-    
+               
     '5b) Find starting price for the current ticker.
     
     If Cells(j - 1, 1).Value <> ticker And Cells(j, 1).Value = ticker Then
@@ -89,8 +86,7 @@ For i = 0 To 11
         startingPrice = Cells(j, 6).Value
         
     End If
-        
-    
+            
     '5c) Find ending price for the current ticker.
     
     If Cells(j + 1, 1).Value <> ticker And Cells(j, 1).Value = ticker Then
