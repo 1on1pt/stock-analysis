@@ -248,7 +248,7 @@ Sub AllStocksAnalysisRefactored()
 
 End Sub
 
-
+XXXXX
 Sub AllStocksAnalysisRefactored()
     Dim startTime As Single
     Dim endTime  As Single
@@ -379,6 +379,8 @@ Sub AllStocksAnalysisRefactored()
     MsgBox "This code ran in " & (endTime - startTime) & " seconds for the year " & (yearValue)
 
 End Sub
+XXXXX
+
 
 
 
