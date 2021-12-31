@@ -9,6 +9,7 @@ The purpose of this project is to macro-enable the Excel workbook so that VBA ca
 ## Results
 ### Original Code
 The *original code* contained a "nested loop", which ultimately resulted in additional steps and using more memory in determing the output of **Total Daily Volume** and **Return**.  See below the original code with the nested loop.
+
 Sub AllStocksAnalysis()
 
     Dim startTime As Single
