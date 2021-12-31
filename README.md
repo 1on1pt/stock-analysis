@@ -87,7 +87,7 @@ For i = 0 To 11
     
 Next i
 
-###Refactored Code
+### Refactored Code
 To improve the logic and eliminate the "nested loop", 4 arrays were used:
 
 1. Dim tickers(12) As String
