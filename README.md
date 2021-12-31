@@ -88,42 +88,13 @@ The *original code* contained a "nested loop", which ultimately resulted in addi
     Next i
     
  The outcome of the the stock performance for 2017 and execution time is as follows:
- All Stocks (2017)		
-		
-Ticker	Total Daily Volume	Return
-AY	136,070,900	8.94%
-CSIQ	310,592,800	33.07%
-DQ	35,796,200	199.45%
-ENPH	221,772,100	129.52%
-FSLR	684,181,400	101.31%
-HASI	80,949,300	25.84%
-JKS	191,632,200	53.87%
-RUN	267,681,300	5.55%
-SEDG	206,885,200	184.47%
-SPWR	782,187,000	23.07%
-TERP	139,402,800	-7.21%
-VSLR	109,487,900	50.00%
+ 
 ![image](https://user-images.githubusercontent.com/94148420/147826108-b58eb726-2d56-42da-b047-0ca9718ca2f4.png)
 
 ![Green_Stocks_2017_Original](https://user-images.githubusercontent.com/94148420/147826160-da2bc5b6-cf10-4ca2-9e08-dae63e3593c6.PNG)
 
 And the results for 2018:
 
-All Stocks (2018)		
-		
-Ticker	Total Daily Volume	Return
-AY	83,079,900	-7.28%
-CSIQ	200,879,900	-16.34%
-DQ	107,873,900	-62.60%
-ENPH	607,473,500	81.92%
-FSLR	478,113,900	-39.71%
-HASI	104,340,600	-20.66%
-JKS	158,309,000	-60.53%
-RUN	502,757,100	83.95%
-SEDG	237,212,300	-7.75%
-SPWR	538,024,300	-44.59%
-TERP	151,434,700	-5.00%
-VSLR	136,539,100	-3.54%
 ![image](https://user-images.githubusercontent.com/94148420/147826325-89b3c89e-285d-45e0-b04c-bd9b1197bb30.png)
 
 ![Green_Stocks_2018_Original](https://user-images.githubusercontent.com/94148420/147826351-6a832545-11b4-422e-b9d3-82291611a867.PNG)
