@@ -10,9 +10,9 @@ The purpose of this project is to macro-enable the Excel workbook so that VBA ca
 ### Original Code
 The *original code* contained a "nested loop", which ultimately resulted in additional steps and using more memory in determing the output of **Total Daily Volume** and **Return**.  See below the original code with the nested loop.
 
-'2) Initialize an array of all tickers.
+    '2) Initialize an array of all tickers.
 
-Dim tickers(11) As String
+    Dim tickers(11) As String
     
     tickers(0) = "AY"
     tickers(1) = "CSIQ"
@@ -27,22 +27,22 @@ Dim tickers(11) As String
     tickers(10) = "TERP"
     tickers(11) = "VSLR"
 
-'3a) Initialize variables for the starting price and ending price.
+    '3a) Initialize variables for the starting price and ending price.
 
-Dim startingPrice As Single
-Dim endingPrice As Single
+    Dim startingPrice As Single
+    Dim endingPrice As Single
 
-'3b) Activate the data worksheet.
+    '3b) Activate the data worksheet.
 
     Sheets(yearValue).Activate
 
-'3c) Find the number of rows to loop over.
+    '3c) Find the number of rows to loop over.
 
-RowCount = Cells(Rows.Count, "A").End(xlUp).Row
+    RowCount = Cells(Rows.Count, "A").End(xlUp).Row
 
-'4) Loop through the tickers.
+    '4) Loop through the tickers.
 
-For i = 0 To 11
+    For i = 0 To 11
 
     ticker = tickers(i)
     totalVolume = 0
@@ -78,14 +78,14 @@ For i = 0 To 11
     
     Next j
     
-'6) Output the data for the current ticker.
+    '6) Output the data for the current ticker.
 
     Worksheets("All Stocks Analysis").Activate
     Cells(4 + i, 1).Value = ticker
     Cells(4 + i, 2).Value = totalVolume
     Cells(4 + i, 3).Value = endingPrice / startingPrice - 1
     
-Next i
+    Next i
 
 ### Refactored Code
 To improve the logic and eliminate the "nested loop", 4 arrays were used:
@@ -95,7 +95,7 @@ To improve the logic and eliminate the "nested loop", 4 arrays were used:
 3. ReDim tickerStartingPrices(12) As Single
 4. ReDim tickerEndingPrices(12) As Single
 
-The variable tickerIndex was used to match the ticker symbol via the ticker array with tickerVolumes, tickerStartingPrices, and ticker EndingPrices.  See below the refactored code:
+The variable tickerIndex was used to match the ticker symbol via the ticker array with tickerVolumes, tickerStartingPrices, and ticker EndingPrices.  See refactored code below.
 
     'Initialize array of all tickers
     Dim tickers(12) As String
