@@ -1,4 +1,4 @@
-# Stock Analysis Tool Developement
+# Development of a Stock Analysis Tool
 Developing a stock analysis tool using Visual Basic for Applications (VBA) in Excel.
 ## Overview of Project
 A good friend of mine, Steve, recently graduated with his finance degree and his proud parents have become his first clients.  His parents are passionate about green energy, so they have invested all their funds in DAQO (DQ).  Steve, keeping his parent's best interests first, wants to perform an analysis on DQ, as well as looking at several other green energy stocks to assure that their portfolio is well diversified.  He has fairly good handle on Excel and its functionality, but is asking for assistance in completing his stock analysis to assure accuracy and efficiency.  Steve will learn of the power and functionality of VBA, which in turn ultimately helps him to accurately and efficiently analyze not only a small porfolio, but the entire stock market.
