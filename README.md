@@ -108,7 +108,7 @@ To improve the logic and eliminate the "nested loop", 4 arrays were used:
 3. ReDim tickerStartingPrices(12) As Single
 4. ReDim tickerEndingPrices(12) As Single
 
-The variable tickerIndex was used to match the ticker symbol via the ticker array with tickerVolumes, tickerStartingPrices, and ticker EndingPrices.  See refactored code below.
+The variable *tickerIndex* was used to match the ticker symbol via the ticker array with tickerVolumes, tickerStartingPrices, and ticker EndingPrices.  See refactored code below.
 
     'Initialize array of all tickers
     Dim tickers(12) As String
