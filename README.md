@@ -200,5 +200,10 @@ And the results for 2018:
 
 ![VBA_Challenge_2018](https://user-images.githubusercontent.com/94148420/147826750-208cd1f0-a9e2-448a-87bb-d931ed72c2a2.PNG)
 
+### Analysis of Refactored Code vs. Original Code Run-Times
+
+As seen with the above run-time data, the refactored code ran approximately 0.5 seconds faster than the original code, thus making it more efficient.  Steve will now have confidence that using the new refactored code will be more efficient and take less time as he analyzes the entire stock market.
 
 ## Summary
+
+
